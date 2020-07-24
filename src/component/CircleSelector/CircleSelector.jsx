@@ -23,7 +23,7 @@ return(
           id={idx + 1}
         className={check(idx + 1)}
           onClick={e => props.selectCircle(e.target.id)}
-      >Selected Circle {circle}</button> 
+      >Select Circle {circle}</button> 
       )}
     </div>
 )
